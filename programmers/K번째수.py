@@ -8,3 +8,9 @@ def solution(array, commands):
         answer.append(temp[commands[i][2]-1])
         print(answer)
     return answer
+
+DIC ={'a':0 , 'b':1 }
+print(DIC.values())
+print(max(DIC))
+DIC['A']=12345
+print(DIC)
