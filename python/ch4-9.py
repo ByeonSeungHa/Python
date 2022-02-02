@@ -22,3 +22,7 @@ if 6 in t2 :
     print("6 있음")
 else :
     print("6 없음")
+
+dic = {}
+dic[(0,1,2)]=0
+print(dic)
