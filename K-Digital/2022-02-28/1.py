@@ -17,6 +17,9 @@ print ("HelloWorld")
 #  여러줄 주석2
 # """
 
+
+
+
 print("주석문 이용")
 txt = 'python good'
 print(txt)
