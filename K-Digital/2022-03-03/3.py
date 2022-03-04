@@ -278,3 +278,9 @@ for i in range(1,11,2):
 
 
 
+#=========================================
+# if, if~else, if~elif~else
+# True / False 가 되는값 True는 0이 아닌값
+# while ~
+# for ... in 리스트/문자열/튜플
+# for ... in range(start,end,step)
