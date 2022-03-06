@@ -1,4 +1,4 @@
-짝수와 홀수
+# 짝수와 홀수
 
 def solution(num):
     if num%2 == 1 :
