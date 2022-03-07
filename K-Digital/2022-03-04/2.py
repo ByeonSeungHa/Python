@@ -79,8 +79,9 @@ def 함수명():
 def hello3():
     userName = input('당신의 이름은?...')
     message = userName + ' 님 환영합니다.'
-    return message
-    print('=' * 50)
+    return
+
+print('=' * 50)
 
 
 # 함수호출1
@@ -516,9 +517,19 @@ makeAddr(userName='마리아', addr='부산', nation='호주')
 
 
 
-
-
-
+'''
+====================================================
+리스트 for
+함수 = 인자(parameter, auguments, 전달변수), return
+함수 (인자 x, return x)
+함수 (인자 o, return x)
+함수 (인자 x, return o)
+함수 (인자 o, return o)
+함수 (인자=값....)
+함수 (인자, 인자=값....)
+함수 ( *args ) # 입력값이 튜플로
+함수 ( **kwargs ) => 입력값이 딕셔너리로
+'''
 
 
 
