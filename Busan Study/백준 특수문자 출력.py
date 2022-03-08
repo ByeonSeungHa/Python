@@ -1,2 +1,2 @@
-A = input()
-print(A,end="??!")
+# A = input()
+# print(A,end="??!")
