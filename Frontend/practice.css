@@ -1,0 +1,10 @@
+nav {
+    background-color: darkgreen;
+    font-size: 150%;
+    text-align: center;
+    color: white
+}
+
+nav a {
+    color: white
+}
