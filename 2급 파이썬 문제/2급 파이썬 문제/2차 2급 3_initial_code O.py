@@ -4,6 +4,12 @@
 def solution(N, M):
     #여기에 코드를 작성해주세요.
     answer = 0
+    for i in range(N,M+1,2):
+        if N < M:
+            answer += i**2
+        else:
+            return False
+
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
