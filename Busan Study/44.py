@@ -1,9 +1,9 @@
 #다음과 같이 import를 사용할 수 있습니다.
 #import math
 
-def solution(scores):
+def solution(scores1):
     #여기에 코드를 작성해주세요.
-    answer = 0
+    answer = sum(scores1) - max(scores1) - min(scores1)// (len(scores1)-2)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
