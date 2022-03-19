@@ -4,7 +4,14 @@
 def solution(words, word):
     #여기에 코드를 작성해주세요.
     count = 0
+
+    for i in words:
+        for x, y in zip(i, word):
+            if x != y:
+                count = count + 1
+
     return count
+
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
 words = ["CODE", "COED", "CDEO"]
