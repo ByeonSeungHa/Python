@@ -2,11 +2,19 @@
 #import math
 
 def solution(price, grade):
-    #Write code here.
     answer = 0
+
+    if grade == "S":
+        answer = int(price*0.95)
+    if grade == "G":
+        answer = int(price*0.9)
+    if grade == "v":
+        answer = int(price*0.85)
+
     return answer
 
 #The following is code to output testcase.
+
 price1 = 2500
 grade1 = "V"
 ret1 = solution(price1, grade1)
