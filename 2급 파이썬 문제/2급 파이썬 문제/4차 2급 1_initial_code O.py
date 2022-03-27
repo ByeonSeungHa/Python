@@ -1,8 +1,8 @@
 def solution(schedule):
     answer = []
     for idx, i in enumerate(schedule):
-        if i == @@@:
-            answer.append(@@@)
+        if i == "X":
+            answer.append(idx+1)
     return answer
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다.

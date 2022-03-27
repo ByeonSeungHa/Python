@@ -24,9 +24,9 @@ def func_c(scores):
 def solution(scores):
     answer = 0
     for my_score in scores:
-        passed = func_@@@(@@@)
-        non_passed = func_@@@(@@@)
-        answer += func_@@@(@@@, @@@)
+        passed = func_c(my_score)
+        non_passed = func_b(my_score)
+        answer += func_a(passed, non_passed)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
