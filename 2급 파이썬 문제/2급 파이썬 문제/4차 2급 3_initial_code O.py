@@ -21,13 +21,13 @@ def func_c(bundle):
     for card in bundle:
         answer += score_per_cards[card]
     return answer
-        
+
 def solution(n, bundle):
-    a_cards = func_a(@@@, @@@)[:n]
-    b_cards = func_a(@@@, @@@)[:n]
-    a_score = func_c(@@@)
-    b_score = func_c(@@@)
-    return func_b(@@@, @@@)
+    a_cards = func_a(bundle, 0)[:n]
+    b_cards = func_a(bundle, 1)[:n]
+    a_score = func_c(a_cards)
+    b_score = func_c(b_cards)
+    return func_b(a_score, b_score)
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
 n = 4
