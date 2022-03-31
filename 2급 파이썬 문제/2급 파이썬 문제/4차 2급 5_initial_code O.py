@@ -1,10 +1,11 @@
 def solution(calorie):
-    min_cal = 0
+    min_cal = 1000
     answer = 0
     for cal in calorie:
         if cal > min_cal:
-            answer += cal - min_cal
-        min_cal = min(min_cal, cal)
+            answer += (cal - min_cal)
+        else:
+            min_cal = cal
     return answer
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다. 아래에는 잘못된 부분이 없으니, 위의 코드만 수정하세요.

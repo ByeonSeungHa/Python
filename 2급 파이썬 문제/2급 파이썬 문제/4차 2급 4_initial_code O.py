@@ -1,8 +1,8 @@
 def solution(classes, m):
     answer = 0
     for students in classes:
-        answer += students @@@ m
-        if students @@@ m != 0:
+        answer += students // m
+        if students / m != 0:
             answer += 1
     return answer
 
