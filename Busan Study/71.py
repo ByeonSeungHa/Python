@@ -27,6 +27,20 @@
 #
 #
 #
+# 아마도 답
+
+def solution(n, votes):
+    arr = [0] * (n + 1)
+    for vote in votes:
+        arr[vote] += 1
+
+    for i in range(1, n+1):
+        if arr[i] > len(votes)/2:
+            return i
+    return -1
+
+
+
 # 답지
 
 def solution(n, votes):
