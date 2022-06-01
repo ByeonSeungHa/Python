@@ -2,10 +2,9 @@ def solution(n, votes):
     arr = [0] * (n + 1)
     for vote in votes:
         arr[vote] += 1
-        print(arr[vote])
 
     for i in range(1, n+1):
-        if arr[i] > len(vote)/2:
+        if arr[i] > len(votes)/2:
             return i
     return -1
 

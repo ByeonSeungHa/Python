@@ -2,7 +2,6 @@
 #import math
 
 def solution(shirt_size):
-    answer = []
     shirt_list = [0 for _ in range(6)]
     for i in shirt_size:
         if i == "XS":
