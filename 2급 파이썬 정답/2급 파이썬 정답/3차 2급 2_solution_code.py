@@ -5,6 +5,7 @@ def func_a(current_grade, last_grade, rank, max_diff_grade):
         if current_grade[i] >= 80 and rank[i] <= arr_length // 10:
             count += 1
         elif current_grade[i] >= 80 and rank[i] == 1:
+            count += 1
         elif max_diff_grade > 0 and max_diff_grade == current_grade[i] - last_grade[i]:
             count += 1
     return count

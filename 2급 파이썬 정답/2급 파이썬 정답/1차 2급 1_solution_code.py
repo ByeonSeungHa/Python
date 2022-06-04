@@ -13,4 +13,5 @@ def solution(shirt_size):
             size_counter[4] += 1
         elif ss == "XXL":
             size_counter[5] += 1
+
     return size_counter
