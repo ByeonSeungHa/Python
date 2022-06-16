@@ -17,6 +17,8 @@
 #
 # 정답
 #
+#
+#
 # def solution(weight, boxes):
 #     answer = 0
 #     for x in boxes:
