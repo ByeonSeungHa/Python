@@ -22,6 +22,7 @@
 #
 # 답
 #
+# 
 #
 # def solution(speed, cars):
 #     answer = 0
