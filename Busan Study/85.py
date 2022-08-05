@@ -27,6 +27,7 @@
 #
 # 답
 #
+# 
 # def solution(taekwondo, running, shooting):
 #     answer = 0
 #     if taekwondo >= 25:
